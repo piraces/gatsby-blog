@@ -1,16 +1,16 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://piraces.dev/',
+  title: 'Piraces',
+  subtitle: 'Software Engineer. Software developments & tech related blog.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'piraces-dev',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-136840526-1',
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
@@ -18,21 +18,19 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Active developments',
+      path: '/pages/developments'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Raúl Piracés',
+    photo: '/photo.jpeg',
+    bio: 'Software Engineer',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'raul.piraces@gmail.com',
+      twitter: 'piraces_',
+      github: 'piraces',
+      rss: '#'
     }
   }
 };
