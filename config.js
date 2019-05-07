@@ -28,9 +28,11 @@ module.exports = {
     bio: 'Software Engineer',
     contacts: {
       email: 'raul.piraces@gmail.com',
+      devto: 'piraces',
+      stackoverflow: '4064162',
       twitter: 'piraces_',
       github: 'piraces',
-      rss: '#'
+      rss: 'https://feedly.com/i/discover/sources/search/feed/piraces.dev'
     }
   }
 };

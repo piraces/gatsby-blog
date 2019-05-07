@@ -8,14 +8,14 @@ const getIcon = (name: string) => {
     case 'twitter':
       icon = ICONS.TWITTER;
       break;
+    case 'devto':
+      icon = ICONS.DEVTO;
+      break;
+    case 'stackoverflow':
+      icon = ICONS.STACKOVERFLOW;
+      break;
     case 'github':
       icon = ICONS.GITHUB;
-      break;
-    case 'vkontakte':
-      icon = ICONS.VKONTAKTE;
-      break;
-    case 'telegram':
-      icon = ICONS.TELEGRAM;
       break;
     case 'email':
       icon = ICONS.EMAIL;

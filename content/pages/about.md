@@ -1,7 +1,8 @@
 ---
 template: page
-title: About me
-slug: About me
+title: 'About me'
 draft: false
 ---
+
 // TODO
+
