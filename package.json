@@ -101,7 +101,7 @@
     "gh-pages": "2.0.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
-    "jest-cli": "23.6.0",
+    "jest-cli": "24.8.0",
     "lost": "8.3.1",
     "postcss-pxtorem": "4.0.1",
     "react-test-renderer": "16.8.6",
