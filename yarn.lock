@@ -932,13 +932,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.2.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0":
   version "7.4.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.2.tgz#f5ab6897320f16decd855eed70b705908a313fe8"
   dependencies:
@@ -6091,10 +6085,10 @@ gatsby-plugin-feed@^2.1.0:
     lodash.merge "^4.6.0"
     rss "^1.2.2"
 
-gatsby-plugin-flow@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.4.tgz#13a93a734115fb595fc725c319c47a007841d94d"
-  integrity sha512-HUFDiZIBEU6ZM6gOytKdX0FtgpZyw3vycZwGdY4Y6rtins9iXrfNmnh0pMyb8jVmCWUlxSPu+LMt14sm1QVDOg==
+gatsby-plugin-flow@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.5.tgz#1078160648cce0d91610fe37721fd78cae904705"
+  integrity sha512-LAyvG7+UJpiNyvDFXXVz2/HHHO3fe44d9HcUi0uh1s8rwkD9FfjlGN98rL26fOFtVl2GDtl9EfhCkmuM02PlyA==
   dependencies:
     "@babel/preset-flow" "^7.0.0-rc.1"
     "@babel/runtime" "^7.0.0"
@@ -12655,10 +12649,6 @@ regenerator-runtime@^0.10.5:
 regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
-
-regenerator-runtime@^0.12.0:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
 regenerator-runtime@^0.13.2:
   version "0.13.2"
