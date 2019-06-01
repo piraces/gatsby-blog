@@ -24,7 +24,7 @@ module.exports = {
   ],
   author: {
     name: 'Raúl Piracés',
-    photo: '/photo.jpeg',
+    photo: '/photo.webp',
     bio: 'Software Engineer',
     contacts: {
       email: 'raul.piraces@gmail.com',
