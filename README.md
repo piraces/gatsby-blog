@@ -1,4 +1,6 @@
 ## piraces.dev
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7cbf0696-27be-4187-85b9-46bb6b1417ea/deploy-status)](https://app.netlify.com/sites/piracesdev/deploys)
+
 Main repository for the site piraces.dev, written in GatsbyJS based in the Lumen theme
 
 
