@@ -27,7 +27,7 @@ module.exports = {
     photo: '/photo.webp',
     bio: 'Software Engineer',
     contacts: {
-      email: 'raul.piraces@gmail.com',
+      email: 'raul@piraces.dev',
       devto: 'piraces',
       stackoverflow: '4064162',
       twitter: 'piraces_',
