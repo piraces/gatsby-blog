@@ -1,6 +1,7 @@
 ---
 template: post
 title: Build your own {{insert technology here}}
+slug: build-your-own-insert-technology-here
 draft: false
 date: 2019-01-20T18:03:48.429Z
 description: 'What I cannot create, I do not understand.'

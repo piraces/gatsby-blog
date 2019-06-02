@@ -1,6 +1,7 @@
 ---
 template: post
 title: Hello world!
+slug: hello-world
 draft: false
 date: 2019-01-01T18:03:48.429Z
 description: My first post! Welcome to my new blog!
