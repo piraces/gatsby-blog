@@ -4,22 +4,36 @@ title: Developments
 draft: false
 ---
 
-1. [ developer.li ](#devli)
-2. [ WTransfer ](#wtransfer)
-3. [ Fiestas de Ejea ](#fiestasejea)
-4. [ Portfolio ](#portfolio)
-5. [ Adidas Assistant ](#adi)
-6. [ © - graph ](#cgraph)
-7. [ Stock Surfer ](#stocksurfer)
-8. [ Stores for Me! ](#storesforme)
-9. [ Linked Data Hurricanes Info ](#linkeddata)
-10. [ Process Mining for Security ](#processmining)
-11. [ PocketShop ](#pocketshop)
-12. [ JajaTweets ](#jajatweets)
-13. [ WallaLinks! ](#wallalinks)
-14. [ WallaPet ](#wallapet)
+* [ developer.li ](#developerli)
 
-<a name="devli"></a>
+* [ WTransfer ](#wtransfer)
+
+* [ Fiestas de Ejea ](#fiestas-de-ejea)
+
+* [ Portfolio ](#portfolio)
+
+* [ Adidas Assistant ](#adidas-assistant)
+
+* [ © - graph ](#c-graph)
+
+* [ Stock Surfer ](#stock-surfer)
+
+* [ Stores for Me! ](#stores-for-me)
+
+* [ Linked Data Hurricanes Info ](#linked-data-hurricanes-info)
+
+* [ Process Mining for Security ](#process-mining-for-security)
+
+* [ PocketShop ](#pocketShop)
+
+* [ JajaTweets ](#jajaTweets)
+
+* [ WallaLinks! ](#wallaLinks)
+
+* [ WallaPet ](#wallapet)
+
+-----------
+
 ## developer.li
 
 **Subdomains for free using the domain developer.li (built in Angular)**
@@ -30,7 +44,8 @@ Simple subdomain availability check web which helps you to configure a free subd
 
 [View project](https://developer.li/)
 
-<a name="wtransfer"></a>
+-----------
+
 ## WTransfer
 
 **Telegram Bot built with AWS Lambda and WeTransfer API**
@@ -41,7 +56,8 @@ Bot built with Node.js in AWS which you can send files and it automatically uplo
 
 [View project](https://t.me/wtransfer_bot)
 
-<a name="fiestasejea"></a>
+-----------
+
 ## Fiestas de Ejea
 
 **Ionic (Angular), Firebase with CI/CD (bitrise.io)**
@@ -52,7 +68,8 @@ Festivities info app for my native region, incuding firebase integration. Develo
 
 [View project](https://github.com/piraces/fiestasEjea)
 
-<a name="portfolio"></a>
+-----------
+
 ## Portfolio
 
 **Angular, Typescript with CI/CD (Netlify & Travis CI)**
@@ -63,7 +80,8 @@ Angular portfolio made static for my personal page, hosted on github and managed
 
 [View project](https://github.com/piraces/portfolio)
 
-<a name="adi"></a>
+-----------
+
 ## Adidas Assistant
 
 **Tensorflow + Python (for recognition), Node.js (backend), MongoDB (DB), Facebook API, Recast.AI**
@@ -74,8 +92,9 @@ Facebook Bot that acts as an assistant. It is able to interpret human natural la
 
 [View project](https://github.com/Bozaneros/AdidasAssistant)
 
-<a name="cgraph"></a>
-## © - graph
+-----------
+
+## c graph
 
 **Javascript, HTML5, CSS3, SPARQL, Java Spark, Vis.js**
 
@@ -85,7 +104,8 @@ Tools related to the visualisation of copyright evidence and/or enhance the Copy
 
 [View project](https://github.com/ismaro3/c-graph)
 
-<a name="stocksurfer"></a>
+-----------
+
 ## Stock Surfer
 
 **Javascript, Phaser (HTML5)**
@@ -96,7 +116,8 @@ Mobile game where you have to surf the stock graphs of several enterprises and c
 
 [View project](https://github.com/albertomg994/Stock-Surfer)
 
-<a name="storesforme"></a>
+-----------
+
 ## Stores for Me!
 
 **Javascript, AngularJS, HTML5, CSS3, MongoDB, NodeJS, Leaflet.js**
@@ -107,7 +128,8 @@ Heat map of bank transactions so a customer can see where people like him/her (a
 
 [View project](http://devpost.com/software/stores4me)
 
-<a name="linkeddata"></a>
+-----------
+
 ## Linked Data Hurricanes Info
 
 **Java Spark, Javascript**
@@ -118,7 +140,8 @@ Web application that shows in an interactive map the zones affected by hurricane
 
 [View project](https://github.com/borjaeg/keystone)
 
-<a name="processmining"></a>
+-----------
+
 ## Process Mining for Security
 
 **Process Mining, Data Mining, Model Driven Software Engineering, Web Information Systems**
@@ -129,7 +152,8 @@ Approach for detecting new threats in Web information systems before they materi
 
 [View project](http://sid.cps.unizar.es/PMS/)
 
-<a name="pocketshop"></a>
+-----------
+
 ## PocketShop
 
 **Java, AngularJS + Ionic, Python**
@@ -140,7 +164,8 @@ A solution for small business that provides a stock, client and sales management
 
 [View project](https://github.com/WallaTeam/FinApps15-App)
 
-<a name="jajatweets"></a>
+-----------
+
 ## JajaTweets
 
 **NodeJS, Express, AngularJS, MongoDB**
@@ -151,7 +176,8 @@ Web Social Managing tool for Twitter, where users can add and manage multiple Tw
 
 [View project](https://github.com/piraces/JajaTweets)
 
-<a name="wallalinks"></a>
+-----------
+
 ## WallaLinks!
 
 **Spring Framework (Java), ExpressJS, AngularJS, MongoDB**
@@ -162,7 +188,8 @@ URL-Shortener web service and platform with advanced features like protected lin
 
 [View project](https://github.com/WallaTeam/WallaLinks)
 
-<a name="wallapet"></a>
+-----------
+
 ## WallaPet
 
 **Android SDK, JavaEE**

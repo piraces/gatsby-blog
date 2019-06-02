@@ -1,12 +1,8 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import styles from './Page.module.scss';
 
 const Page = ({ title, children }) => {
   const pageRef = useRef();
-
-  useEffect(() => {
-    pageRef.current.scrollIntoView();
-  });
 
   return (
     <div ref={pageRef} className={styles['page']}>
