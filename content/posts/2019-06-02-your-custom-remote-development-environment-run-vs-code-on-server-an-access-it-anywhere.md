@@ -4,7 +4,7 @@ title: >-
   Your custom remote development environment: run VS Code on server an access it
   anywhere
 slug: Your custom remote development environment
-draft: true
+draft: false
 date: 2019-06-02T17:26:02.448Z
 description: >-
   "code-server" is VS Code running on a remote server, accessible through the
