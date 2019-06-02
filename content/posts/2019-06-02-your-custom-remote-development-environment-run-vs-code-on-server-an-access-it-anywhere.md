@@ -1,8 +1,8 @@
 ---
 template: post
 title: >-
-  Your custom remote development environment: run VS Code on server an access it
-  anywhere
+  Your custom remote development environment: run VS Code on server and access
+  it anywhere
 slug: your-custom-remote-development-environment
 draft: false
 date: 2019-06-02T17:26:02.448Z
