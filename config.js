@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Raúl Piracés',
     photo: '/photo.webp',
-    bio: 'Software Engineer',
+    bio: 'Software Engineer 👨‍💻🎧 & Full Stack developer. Working on .NET Core environments & JS Frameworks',
     contacts: {
       email: 'raul@piraces.dev',
       devto: 'piraces',
