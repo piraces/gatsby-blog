@@ -37,6 +37,33 @@
 
   }
 
+  &__switch-theme-button {
+    display: block;
+    background: none;
+    height: $button-height;
+    padding: 0 24px;
+    line-height: $button-height;
+    text-align: center;
+    color: var(--color-base);
+    border: 1px solid var(--color-base-light-border);
+    border-radius: $button-border-radius;
+    font-size: $typographic-base-font-size;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 60px;
+    left: 30px;
+    margin: 0px;
+    @include margin-top(1);
+
+    &:hover,
+    &:focus {
+      color: var(--color-primary);
+    }
+
+  }
+
 }
 
 @include breakpoint-md {
