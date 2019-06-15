@@ -4,6 +4,15 @@
 .menu {
   @include margin-bottom(1);
 
+  &__button {
+    background: none;
+    color: inherit;
+    border-radius: 8px;
+    font: inherit;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
   &__list {
     list-style: none;
     padding: 0;
@@ -15,25 +24,21 @@
 
       &-link {
         font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        color: var(--typographic-base-font-color);
         font-weight: normal;
         border: 0;
 
         &:hover,
         &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          color: var(--color-primary);
+          border-bottom: 1px solid var(--color-primary);
         }
 
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: var(--color-base);
+          border-bottom: 1px solid var(--color-base);
         }
-
       }
-
     }
-
   }
-
 }

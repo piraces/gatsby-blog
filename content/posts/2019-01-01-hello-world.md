@@ -9,7 +9,7 @@ category: intro
 tags:
   - intro
 ---
-![Hello World written in Befunge](https://upload.wikimedia.org/wikipedia/commons/c/c0/Hello_World_Befunge.png)
+![Hello World written in Befunge](https://upload.wikimedia.org/wikipedia/commons/archive/c/c0/20170711204213%21Hello_World_Befunge.png)
 
 
 Welcome to my new blog!

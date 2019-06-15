@@ -3,14 +3,39 @@
  */
 
 // Colors
-$color-base: #222;
-$color-primary: #025B9A;
-$color-secondary: #585858;
+:root {
+    --color-base: #222;
+    --color-primary: #025B9A;
+    --color-secondary: #585858;
+    --color-bg: #FFF;
 
-$color-white: #FFF;
-$color-gray: lighten($color-base, 20%);
-$color-gray-border: lighten($color-base, 77%);
-$color-gray-bg: lighten($color-base, 79%);
+    --color-base-light: #555555;
+    --color-base-light-disable: #888888;
+    --color-base-light-border: #e6e6e6;
+    --color-base-light-bg: #ebebeb;
+
+    --typographic-base-font-color: #222;
+    --typographic-link-p-font-color: #025B9A;
+    --typographic-link-s-font-color: #585858;
+}
+
+
+
+[data-theme="dark"] {
+    --color-base: #fff;
+    --color-primary: #818cab;
+    --color-secondary: #d3d3d3;
+
+    --color-bg: #000;
+    --color-base-light: #c4c4c4;
+    --color-base-light-disable: #666666;
+    --color-base-light-border: #c4c4c4;
+    --color-base-light-bg: #c9c9c9;
+
+    --typographic-base-font-color: #fff;
+    --typographic-link-p-font-color: #818cab;
+    --typographic-link-s-font-color: #d3d3d3;
+}
 
 // Typographic
 $typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -20,10 +45,6 @@ $typographic-base-font-size: 16px;
 $typographic-small-font-size: 14px;
 
 $typographic-base-line-height: 1.625;
-
-$typographic-base-font-color: $color-base;
-$typographic-link-p-font-color: $color-primary;
-$typographic-link-s-font-color: $color-secondary;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
 

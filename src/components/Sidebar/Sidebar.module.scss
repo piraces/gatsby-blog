@@ -15,8 +15,8 @@
         &__inner {
             padding: 30px 20px 0;
             &:after {
-                background: $color-gray-border;
-                background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);
+                background: var(--color-base-light-border);
+                background: linear-gradient(to bottom, var(--color-base-light-border) 0%, var(--color-base-light-border) 48%, var(--color-bg) 100%);
                 position: absolute;
                 content: '';
                 width: 1px;
