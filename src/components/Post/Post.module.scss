@@ -51,10 +51,7 @@
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
-    top: 60px;
-    left: 30px;
-    margin: 0px;
+    max-width: 9.625rem;
     @include margin-top(1);
 
     &:hover,
