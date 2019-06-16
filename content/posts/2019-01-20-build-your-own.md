@@ -20,7 +20,9 @@ Sure it's worth a ⭐️!
 
 **Check it out:**
 
-- [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+[![danistefanovic/build-your-own-x - GitHub](https://gh-card.dev/repos/danistefanovic/build-your-own-x.svg?fullname)](https://github.com/danistefanovic/build-your-own-x)
+
+[GitHub link](https://github.com/danistefanovic/build-your-own-x)
 
 
 *"What I cannot create, I do not understand."*
