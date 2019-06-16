@@ -190,6 +190,9 @@ module.exports = {
     'gatsby-plugin-flow',
     {
       resolve: 'gatsby-plugin-brotli'
+    },
+    {
+      resolve: 'gatsby-plugin-zopfli'
     }
   ]
 };
