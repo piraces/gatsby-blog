@@ -58,7 +58,7 @@
     "gatsby-plugin-zopfli": "^1.1.2",
     "gatsby-remark-autolink-headers": "^2.1.0",
     "gatsby-remark-copy-linked-files": "^2.1.0",
-    "gatsby-remark-images": "^3.1.0",
+    "gatsby-remark-images": "^3.1.2",
     "gatsby-remark-katex": "^3.1.0",
     "gatsby-remark-prismjs": "^3.3.0",
     "gatsby-remark-relative-images": "^0.2.2",
