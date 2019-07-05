@@ -42,7 +42,7 @@
     "gatsby": "^2.10.0",
     "gatsby-cli": "^2.7.7",
     "gatsby-link": "^2.2.0",
-    "gatsby-plugin-brotli": "^1.2.0",
+    "gatsby-plugin-brotli": "^1.2.3",
     "gatsby-plugin-catch-links": "^2.1.0",
     "gatsby-plugin-feed": "^2.3.2",
     "gatsby-plugin-flow": "^1.1.0",
