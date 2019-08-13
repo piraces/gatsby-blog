@@ -39,7 +39,7 @@
     "bluebird": "^3.5.4",
     "classnames": "^2.2.6",
     "codecov": "^3.4.0",
-    "gatsby": "^2.13.58",
+    "gatsby": "^2.13.61",
     "gatsby-cli": "^2.7.30",
     "gatsby-link": "^2.2.4",
     "gatsby-plugin-brotli": "^1.2.4",
