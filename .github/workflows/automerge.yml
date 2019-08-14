@@ -4,11 +4,9 @@ on: [pull_request, pull_request_review, status]
 
 jobs:
   automerge:
-    runs-on: ubuntu-latest
     steps:
       - name: Auto-merge
         uses: pascalgn/automerge-action@v0.2.4
         with:
           secrets: ${{ secrets.ACCESS_TOKEN }}
           labels: [!wip,!work in progress,dependencies]
-      - run: echo All Done!
