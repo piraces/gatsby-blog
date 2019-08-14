@@ -4,7 +4,14 @@ on: [pull_request, pull_request_review, status]
 
 jobs:
   automerge:
-    uses: pascalgn/automerge-action@v0.2.4
-    with:
-      secrets: ["ACCESS_TOKEN"]
-      labels: [!wip,!work in progress,dependencies]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-merge
+        uses: pascalgn/automerge-action@v0.2.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_VAR1: a_variable
+        with:
+          secrets: ${{ secrets.ACCESS_TOKEN }}
+          labels: [!wip,!work in progress,dependencies]
+      - run: echo All Done!
