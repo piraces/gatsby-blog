@@ -15,7 +15,7 @@ workflow "automerge pull requests on status updates" {
 
 action "automerge" {
   uses = "pascalgn/automerge-action@v0.2.4"
-  secrets = ["GITHUB_TOKEN"]
+  secrets = ["ACCESS_TOKEN"]
   env = {
     LABELS = "!wip,!work in progress,dependencies"
     AUTOMERGE = "ready-to-merge"
