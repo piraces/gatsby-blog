@@ -8,5 +8,5 @@ jobs:
       - name: Auto-merge
         uses: pascalgn/automerge-action@v0.2.4
         with:
-          secrets: ${{ secrets.ACCESS_TOKEN }}
+          secrets: [ACCESS_TOKEN]
           labels: [!wip,!work in progress,dependencies]
