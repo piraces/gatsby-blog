@@ -8,9 +8,6 @@ jobs:
     steps:
       - name: Auto-merge
         uses: pascalgn/automerge-action@v0.2.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MY_VAR1: a_variable
         with:
           secrets: ${{ secrets.ACCESS_TOKEN }}
           labels: [!wip,!work in progress,dependencies]
