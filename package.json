@@ -103,7 +103,7 @@
     "flow-bin": "^0.105.2",
     "gh-pages": "2.1.1",
     "identity-obj-proxy": "3.0.0",
-    "jest": "24.8.0",
+    "jest": "24.9.0",
     "jest-cli": "24.8.0",
     "lost": "8.3.1",
     "postcss-pxtorem": "4.0.1",
