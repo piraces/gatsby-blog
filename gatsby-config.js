@@ -85,6 +85,7 @@ module.exports = {
                 }
               }
             `,
+          title: 'piraces.dev',
           output: '/rss.xml'
         }]
       }
