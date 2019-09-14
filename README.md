@@ -9,6 +9,7 @@ Main repository for the site piraces.dev, written in GatsbyJS based in the Lumen
 The MIT License (MIT)
 
 Original work Copyright (c) 2016-2019 Alexander Shelepenok
+
 Modifications to the theme and codebase Copyright (c) 2019 Raúl Piracés
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
