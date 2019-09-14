@@ -2,7 +2,7 @@
 template: post
 title: 'The NTP Pool project: How to use and contribute'
 slug: ntp-pool-project-use-contribute
-draft: true
+draft: false
 date: 2019-09-14T14:12:18.264Z
 description: >-
   The NTP Pool project is a virtual server farm that offers NTP service for
