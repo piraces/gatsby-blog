@@ -9,10 +9,10 @@ description: >-
   everyone, easy to use and easy to contribute to.
 category: tutorial
 tags:
-  - '#ntp'
-  - '#tutorial'
-  - '#contributing'
-  - '#community'
+  - ntp
+  - tutorial
+  - contributing
+  - community
 ---
 ![Cover Image](https://thepracticaldev.s3.amazonaws.com/i/jzgnaxc8ijocljt6kpus.jpeg)
 
