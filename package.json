@@ -55,7 +55,7 @@
     "gatsby-plugin-sass": "^2.1.14",
     "gatsby-plugin-sharp": "^2.2.22",
     "gatsby-plugin-sitemap": "^2.2.12",
-    "gatsby-plugin-zopfli": "^1.2.4",
+    "gatsby-plugin-zopfli": "^1.3.0",
     "gatsby-remark-autolink-headers": "^2.1.10",
     "gatsby-remark-copy-linked-files": "^2.1.19",
     "gatsby-remark-images": "^3.1.22",
