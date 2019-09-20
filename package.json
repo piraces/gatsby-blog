@@ -38,7 +38,7 @@
   "dependencies": {
     "bluebird": "^3.5.4",
     "classnames": "^2.2.6",
-    "codecov": "^3.4.0",
+    "codecov": "^3.6.0",
     "gatsby": "^2.15.18",
     "gatsby-cli": "^2.7.48",
     "gatsby-link": "^2.2.14",
