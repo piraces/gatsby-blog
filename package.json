@@ -47,7 +47,7 @@
     "gatsby-plugin-feed": "^2.3.13",
     "gatsby-plugin-flow": "^1.1.7",
     "gatsby-plugin-google-gtag": "^1.1.9",
-    "gatsby-plugin-manifest": "^2.2.18",
+    "gatsby-plugin-manifest": "^2.2.20",
     "gatsby-plugin-netlify": "^2.1.15",
     "gatsby-plugin-netlify-cms": "^4.1.19",
     "gatsby-plugin-offline": "^3.0.8",
