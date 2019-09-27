@@ -20,6 +20,9 @@ const getIcon = (name: string) => {
     case 'email':
       icon = ICONS.EMAIL;
       break;
+    case 'key':
+      icon = ICONS.KEY;
+      break;
     case 'rss':
       icon = ICONS.RSS;
       break;

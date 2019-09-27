@@ -56,6 +56,7 @@ export const Sidebar = (props: Props) => (
                 devto
                 github
                 stackoverflow
+                key
                 email
                 rss
               }

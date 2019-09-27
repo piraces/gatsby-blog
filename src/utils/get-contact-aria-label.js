@@ -15,6 +15,9 @@ const getContactAriaLabel = (name: string, contact: string) => {
     case 'stackoverflow':
       ariaLabel = 'Reach me at StackOverflow';
       break;
+    case 'key':
+      ariaLabel = 'Public PGP Key';
+      break;
     case 'email':
       ariaLabel = 'My contact email';
       break;

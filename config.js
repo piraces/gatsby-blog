@@ -32,6 +32,7 @@ module.exports = {
       stackoverflow: '4064162',
       twitter: 'piraces_',
       github: 'piraces',
+      key: 'https://keybase.io/piraces/pgp_keys.asc',
       rss: 'https://feedly.com/i/discover/sources/search/feed/piraces.dev'
     }
   }

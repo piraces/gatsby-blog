@@ -15,6 +15,9 @@ const getContactHref = (name: string, contact: string) => {
     case 'stackoverflow':
       href = `https://stackoverflow.com/users/${contact}`;
       break;
+    case 'key':
+      href = contact;
+      break;
     case 'email':
       href = `mailto:${contact}`;
       break;
