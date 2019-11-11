@@ -59,7 +59,7 @@
     "gatsby-remark-autolink-headers": "^2.1.16",
     "gatsby-remark-copy-linked-files": "^2.1.29",
     "gatsby-remark-images": "^3.1.29",
-    "gatsby-remark-katex": "^3.1.15",
+    "gatsby-remark-katex": "^3.1.16",
     "gatsby-remark-prismjs": "^3.3.22",
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-remark-responsive-iframe": "^2.2.25",
