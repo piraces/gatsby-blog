@@ -4,6 +4,10 @@ import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
 
+var imgStyle = {
+  maxWidth: '50%'
+};
+
 const NotFoundTemplate = ({ data }) => {
   const {
     title,
@@ -13,8 +17,8 @@ const NotFoundTemplate = ({ data }) => {
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="NOT FOUND">
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Page title="🔍 There's nothing around here...">
+        <img src="/not-found.webp" style={imgStyle}></img>
       </Page>
     </Layout>
   );
