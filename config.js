@@ -33,7 +33,7 @@ module.exports = {
       twitter: 'piraces_',
       github: 'piraces',
       key: 'https://keybase.io/piraces/pgp_keys.asc',
-      rss: 'https://feedly.com/i/discover/sources/search/feed/piraces.dev'
+      rss: 'https://piraces.dev/rss.xml'
     }
   }
 };

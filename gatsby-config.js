@@ -55,8 +55,8 @@ module.exports = {
             allMarkdownRemark.edges.map((edge) => Object.assign({}, edge.node.frontmatter, {
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
-              url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-              guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+              url: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
+              guid: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
               custom_elements: [{ 'content:encoded': edge.node.html }]
             }))
           ),
@@ -194,6 +194,13 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-zopfli'
+    },
+    {
+      resolve: 'gatsby-plugin-react-helmet-canonical-urls',
+      options: {
+        siteUrl: 'https://piraces.dev',
+        stripQueryString: true
+      }
     }
   ]
 };
