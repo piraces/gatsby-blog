@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://piraces.dev/',
   title: 'Piraces Blog',
-  subtitle: 'Software Engineer. Software developments & tech related blog.',
+  subtitle: 'Software developments & tech related blog',
   copyright: '© All rights reserved.',
   disqusShortname: 'piraces-dev',
   postsPerPage: 4,
