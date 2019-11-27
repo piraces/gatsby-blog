@@ -67,7 +67,7 @@
     "gatsby-remark-smartypants": "^2.1.16",
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-remark": "^2.6.37",
-    "gatsby-transformer-sharp": "^2.3.5",
+    "gatsby-transformer-sharp": "^2.3.6",
     "invariant": "^2.2.4",
     "katex": "^0.10.2",
     "lodash": "^4.17.15",
