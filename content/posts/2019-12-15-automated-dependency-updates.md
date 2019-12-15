@@ -88,6 +88,8 @@ My current automated workflow has the following steps:
 
 
 This is the final result:
+![CI Workflow](./images/automated-dependency-updates/Flow_CI_Approval.png)
+
 ![Final result](./images/automated-dependency-updates/Merge_Notifications.png)
 
 Daily automated dependencies updates for my main personal projects, simple and without fear of breaking them.
