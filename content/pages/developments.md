@@ -38,7 +38,7 @@ draft: false
 
 **Subdomains for free using the domain developer.li (built in Angular)**
 
-![developer.li](https://pirac.es/assets/img/developerli.png)
+![developer.li](./images/developerli.png)
 
 Simple subdomain availability check web which helps you to configure a free subdomain in the developer.li domain (made with the NES.css awesome style).
 
@@ -50,7 +50,7 @@ Simple subdomain availability check web which helps you to configure a free subd
 
 **Telegram Bot built with AWS Lambda and WeTransfer API**
 
-![WTransfer](https://pirac.es/assets/img/wtransfer.png)
+![WTransfer](./images/wtransfer.png)
 
 Bot built with Node.js in AWS which you can send files and it automatically uploads it to WeTransfer, to provide you a public link to download the file.
 
@@ -62,7 +62,7 @@ Bot built with Node.js in AWS which you can send files and it automatically uplo
 
 **Ionic (Angular), Firebase with CI/CD (bitrise.io)**
 
-![Fiestas de Ejea](https://pirac.es/assets/img/fiestas.png)
+![Fiestas de Ejea](./images/fiestas.png)
 
 Festivities info app for my native region, incuding firebase integration. Developed with Ionic (angular). Available for Android and iOS.
 
@@ -74,7 +74,7 @@ Festivities info app for my native region, incuding firebase integration. Develo
 
 **Angular, Typescript with CI/CD (Netlify & Travis CI)**
 
-![Portfolio](https://pirac.es/assets/img/portfolio.png)
+![Portfolio](./images/portfolio.png)
 
 Angular portfolio made static for my personal page, hosted on github and managed by Netlify & Travis CI to perform CI/CD.
 
@@ -86,7 +86,7 @@ Angular portfolio made static for my personal page, hosted on github and managed
 
 **Tensorflow + Python (for recognition), Node.js (backend), MongoDB (DB), Facebook API, Recast.AI**
 
-![Adidas Assistant](https://pirac.es/assets/img/adi.png)
+![Adidas Assistant](./images/adi.png)
 
 Facebook Bot that acts as an assistant. It is able to interpret human natural language, and perform different actions such as recognize Adidas' trainers.
 
@@ -98,7 +98,7 @@ Facebook Bot that acts as an assistant. It is able to interpret human natural la
 
 **Javascript, HTML5, CSS3, SPARQL, Java Spark, Vis.js**
 
-![c-graph](https://pirac.es/assets/img/c-graph.png)
+![c-graph](./images/c-graph.png)
 
 Tools related to the visualisation of copyright evidence and/or enhance the Copyright Wiki (copyrightevidence.org).
 
@@ -110,7 +110,7 @@ Tools related to the visualisation of copyright evidence and/or enhance the Copy
 
 **Javascript, Phaser (HTML5)**
 
-![Stock Surfer](https://pirac.es/assets/img/stocksurfer.png)
+![Stock Surfer](./images/stocksurfer.png)
 
 Mobile game where you have to surf the stock graphs of several enterprises and change among them to remain above of a minimum level (colecting bonuses).
 
@@ -122,7 +122,7 @@ Mobile game where you have to surf the stock graphs of several enterprises and c
 
 **Javascript, AngularJS, HTML5, CSS3, MongoDB, NodeJS, Leaflet.js**
 
-![Stores for Me!](https://pirac.es/assets/img/stores4me.png)
+![Stores for Me!](./images/stores4me.png)
 
 Heat map of bank transactions so a customer can see where people like him/her (age, salary,...) buys more frequently.
 
@@ -134,7 +134,7 @@ Heat map of bank transactions so a customer can see where people like him/her (a
 
 **Java Spark, Javascript**
 
-![Linked Data Hurricanes Info](https://pirac.es/assets/img/keystone.png)
+![Linked Data Hurricanes Info](./images/keystone.png)
 
 Web application that shows in an interactive map the zones affected by hurricanes. For that, it uses Open and Linked Data from DBPedia and Geonames.
 
@@ -146,7 +146,7 @@ Web application that shows in an interactive map the zones affected by hurricane
 
 **Process Mining, Data Mining, Model Driven Software Engineering, Web Information Systems**
 
-![Process Mining for Security](https://pirac.es/assets/img/pms.png)
+![Process Mining for Security](./images/pms.png)
 
 Approach for detecting new threats in Web information systems before they materialize and produce some kind of damage. This approach is based on process mining techniques and semiautomatic creation of formal models, from the diagrams produced during the design and development phases of the system to be protected and its log files.
 
@@ -158,7 +158,7 @@ Approach for detecting new threats in Web information systems before they materi
 
 **Java, AngularJS + Ionic, Python**
 
-![PocketShop](https://pirac.es/assets/img/pocketshop.png)
+![PocketShop](./images/pocketshop.png)
 
 A solution for small business that provides a stock, client and sales management system, using a Raspberry Pi and one or more Android devices.
 
@@ -170,7 +170,7 @@ A solution for small business that provides a stock, client and sales management
 
 **NodeJS, Express, AngularJS, MongoDB**
 
-![JajaTweets](https://pirac.es/assets/img/jajaTweets.png)
+![JajaTweets](./images/jajaTweets.png)
 
 Web Social Managing tool for Twitter, where users can add and manage multiple Twitter accounts (including all Twitter actions available). Users can also visualize stats of their accounts, short URLs and subscribe to certain Hashtags, accounts and search terms.
 
@@ -182,7 +182,7 @@ Web Social Managing tool for Twitter, where users can add and manage multiple Tw
 
 **Spring Framework (Java), ExpressJS, AngularJS, MongoDB**
 
-![WallaLinks!](https://pirac.es/assets/img/wallalinks.png)
+![WallaLinks!](./images/wallalinks.png)
 
 URL-Shortener web service and platform with advanced features like protected links, expiration, admin and user panel and stats.
 
@@ -194,7 +194,7 @@ URL-Shortener web service and platform with advanced features like protected lin
 
 **Android SDK, JavaEE**
 
-![WallaPet](https://pirac.es/assets/img/wallapet.png)
+![WallaPet](./images/wallapet.png)
 
 Android app for making simple deals between sellers/buyers of Animals and Animals in adoption.
 
