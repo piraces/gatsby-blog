@@ -14,7 +14,7 @@ tags:
   - contributing
   - community
 ---
-![Cover Image](https://thepracticaldev.s3.amazonaws.com/i/jzgnaxc8ijocljt6kpus.jpeg)
+![Cover Image](./images/Analog_Clock.jpeg)
 
 # Introduction
 
@@ -25,7 +25,7 @@ Actually, the pool has around [4000 servers](https://www.ntppool.org/zone) in di
 
 These servers are in different *stratums* following the NTP hierarchy:
 
-![NTP Hierarchy](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Network_Time_Protocol_servers_and_clients.svg/1920px-Network_Time_Protocol_servers_and_clients.svg.png)
+![NTP Hierarchy](./images/NTP_Hierarchy.png)
 Hierarchy of an NTP system
 
 To know more about different stratums and the characteristics of each stratum servers you can take a look [here](https://en.wikipedia.org/wiki/Network_Time_Protocol#Clock_strata).
@@ -165,4 +165,4 @@ Your server is part of the pool and is helping syncing time for several devices.
 
 Thank you for contributing!! 🎉
 
-![Feels good!](https://media.giphy.com/media/d7c56SbLa9PRC/giphy.gif)
+![Feels good!](./images/Feels_Good_Man.gif)

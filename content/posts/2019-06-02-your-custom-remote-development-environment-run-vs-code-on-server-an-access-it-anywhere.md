@@ -16,7 +16,7 @@ tags:
   - programming
   - server
 ---
-![Cover image](https://live.staticflickr.com/334/32579951031_8560f1da5c_z.jpg)
+![Cover image](./images/VSCode_Screenshot.jpg)
 
 ## Introduction 
 
