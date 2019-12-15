@@ -12,7 +12,7 @@ tags:
   - learning
 ---
 
-![Build your own](./images/Richard_Feynman.png)
+![Build your own](./images/build-your-own-insert-technology-here/Richard_Feynman.png)
 
 Hello, I just want to show the community this awesome repo that consists in a series of different tutorials about how to build your own database, git, network stack, shell, docker... and many more!
 

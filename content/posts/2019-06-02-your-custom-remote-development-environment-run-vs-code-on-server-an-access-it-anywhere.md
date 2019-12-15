@@ -16,7 +16,7 @@ tags:
   - programming
   - server
 ---
-![Cover image](./images/VSCode_Screenshot.jpg)
+![Cover image](./images/your-custom-remote-development-environment/VSCode_Screenshot.jpg)
 
 ## Introduction 
 
