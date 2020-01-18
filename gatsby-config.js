@@ -199,6 +199,14 @@ module.exports = {
         siteUrl: 'https://piraces.dev',
         stripQueryString: true
       }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://piraces.dev',
+        sitemap: 'https://piraces.dev/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     }
   ]
 };
