@@ -66,6 +66,7 @@ export const query = graphql`
             category
             title
           }
+          timeToRead
         }
       }
     }

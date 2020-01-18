@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
 
-var imgStyle = {
+const imgStyle = {
   maxWidth: '50%'
 };
 

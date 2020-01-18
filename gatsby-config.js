@@ -52,11 +52,12 @@ module.exports = {
         `,
         feeds: [{
           serialize: ({ query: { site, allMarkdownRemark } }) => (
-            allMarkdownRemark.edges.map((edge) => Object.assign({}, edge.node.frontmatter, {
+            allMarkdownRemark.edges.map((edge) => ({
+              ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
-              url: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
-              guid: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
+              url: `${site.siteMetadata.siteUrl}/${edge.node.fields.slug}`,
+              guid: `${site.siteMetadata.siteUrl}/${edge.node.fields.slug}`,
               custom_elements: [{ 'content:encoded': edge.node.html }]
             }))
           ),
@@ -191,9 +192,6 @@ module.exports = {
     'gatsby-plugin-flow',
     {
       resolve: 'gatsby-plugin-brotli'
-    },
-    {
-      resolve: 'gatsby-plugin-zopfli'
     },
     {
       resolve: 'gatsby-plugin-react-helmet-canonical-urls',

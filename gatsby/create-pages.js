@@ -41,6 +41,7 @@ const createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            timeToRead
           }
         }
       }

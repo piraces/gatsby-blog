@@ -10,6 +10,12 @@ exports[`Post renders correctly 1`] = `
   >
     All Articles
   </Link>
+  <button
+    className="post__switch-theme-button"
+    onClick={[Function]}
+  >
+    Switch Theme
+  </button>
   <div
     className="post__content"
   >

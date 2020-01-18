@@ -42,6 +42,11 @@
         text-transform: uppercase;
       }
 
+      &-read {
+        font-size: $typographic-small-font-size;
+        color: var(--color-secondary);
+      }
+
       &-divider {
         margin: 0 15px;
       }

@@ -16,14 +16,19 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       <h1
         className="page__title"
       >
-        NOT FOUND
+        🔍 There's nothing around here...
       </h1>
       <div
         className="page__body"
       >
-        <p>
-          You just hit a route that doesn't exist... the sadness.
-        </p>
+        <img
+          src="/not-found.webp"
+          style={
+            Object {
+              "maxWidth": "50%",
+            }
+          }
+        />
       </div>
     </div>
   </div>
