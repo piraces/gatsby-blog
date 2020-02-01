@@ -122,27 +122,27 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify',
       options: {
         allPageHeaders: [
-          "X-Frame-Options: DENY",
-          "X-XSS-Protection: 1; mode=block",
-          "X-Content-Type-Options: nosniff",
-          "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
-          "Content-Security-Policy: default-src 'none'; script-src 'self' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com; connect-src 'self' identity.services.netlify.com github.com; img-src 'self'; style-src 'self';",
-          "Expect-CT: max-age=604800",
-          "Expect-CT: enforce",
-          "Feature-Policy: autoplay 'none'; camera 'none'",
-          "Referrer-Policy: no-referrer-when-downgrade",
+          'X-Frame-Options: DENY',
+          'X-XSS-Protection: 1; mode=block',
+          'X-Content-Type-Options: nosniff',
+          'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload',
+          'Content-Security-Policy: default-src \'none\'; script-src \'self\' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com; connect-src \'self\' identity.services.netlify.com github.com; img-src \'self\'; style-src \'self\';',
+          'Expect-CT: max-age=604800',
+          'Expect-CT: enforce',
+          'Feature-Policy: autoplay \'none\'; camera \'none\'',
+          'Referrer-Policy: no-referrer-when-downgrade',
         ],
         headers: {
-          "/*": [
-            "X-Frame-Options: DENY",
-            "X-XSS-Protection: 1; mode=block",
-            "X-Content-Type-Options: nosniff",
-            "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
-            "Content-Security-Policy: default-src 'none'; script-src 'self' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com; connect-src 'self' identity.services.netlify.com github.com; img-src 'self'; style-src 'self';",
-            "Expect-CT: max-age=604800",
-            "Expect-CT: enforce",
-            "Feature-Policy: autoplay 'none'; camera 'none'",
-            "Referrer-Policy: no-referrer-when-downgrade",
+          '/*': [
+            'X-Frame-Options: DENY',
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
+            'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload',
+            'Content-Security-Policy: default-src \'none\'; script-src \'self\' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com; connect-src \'self\' identity.services.netlify.com github.com; img-src \'self\'; style-src \'self\';',
+            'Expect-CT: max-age=604800',
+            'Expect-CT: enforce',
+            'Feature-Policy: autoplay \'none\'; camera \'none\'',
+            'Referrer-Policy: no-referrer-when-downgrade',
           ]
         }
       }
