@@ -119,41 +119,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-netlify',
-      options: {
-        allPageHeaders: [
-          'X-Frame-Options: DENY',
-          'X-XSS-Protection: 1; mode=block',
-          'X-Content-Type-Options: nosniff',
-          'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload',
-          'Content-Security-Policy: default-src \'self\' *.disqus.com *.disquscdn.com disqus.com; script-src \'unsafe-inline\' \'unsafe-eval\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com piraces-dev.disqus.com *.disqus.com *.disquscdn.com disqus.com; connect-src \'self\' identity.services.netlify.com github.com www.google-analytics.com ajax.googleapis.com www.googletagmanager.com *.disqus.com *.disquscdn.com disqus.com; img-src \'self\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com data: *.disqus.com *.disquscdn.com; style-src \'unsafe-inline\'; font-src \'unsafe-inline\' piraces.dev data:; script-src-elem \'unsafe-inline\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com piraces-dev.disqus.com *.disqus.com *.disquscdn.com disqus.com',
-          'Expect-CT: max-age=604800',
-          'Expect-CT: enforce',
-          'Feature-Policy: autoplay \'none\'; camera \'none\'',
-          'Referrer-Policy: no-referrer-when-downgrade',
-        ],
-        headers: {
-          '/*': [
-            'X-Frame-Options: DENY',
-            'X-XSS-Protection: 1; mode=block',
-            'X-Content-Type-Options: nosniff',
-            'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload',
-            'Content-Security-Policy: default-src \'self\' *.disqus.com *.disquscdn.com disqus.com; script-src \'unsafe-inline\' \'unsafe-eval\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com piraces-dev.disqus.com *.disqus.com *.disquscdn.com disqus.com; connect-src \'self\' identity.services.netlify.com github.com www.google-analytics.com ajax.googleapis.com www.googletagmanager.com *.disqus.com *.disquscdn.com disqus.com; img-src \'self\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com data: *.disqus.com *.disquscdn.com; style-src \'unsafe-inline\'; font-src \'unsafe-inline\' piraces.dev data:; script-src-elem \'unsafe-inline\' piraces.dev www.google-analytics.com ajax.googleapis.com www.googletagmanager.com piraces-dev.disqus.com *.disqus.com *.disquscdn.com disqus.com',
-            'Expect-CT: max-age=604800',
-            'Expect-CT: enforce',
-            'Feature-Policy: autoplay \'none\'; camera \'none\'',
-            'Referrer-Policy: no-referrer-when-downgrade',
-          ]
-        }
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
-    {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
         trackingIds: [siteConfig.googleAnalyticsId],
