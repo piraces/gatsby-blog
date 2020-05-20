@@ -72,7 +72,7 @@
     "invariant": "^2.2.4",
     "katex": "^0.11.1",
     "lodash": "^4.17.15",
-    "moment": "2.25.3",
+    "moment": "2.26.0",
     "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.19.0",
