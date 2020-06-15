@@ -2,6 +2,7 @@
 
 module.exports = {
   url: 'https://piraces.dev/',
+  pathPrefix: '/',
   title: 'Piraces Blog',
   subtitle: 'Software developments & tech related blog',
   copyright: '© All rights reserved.',
