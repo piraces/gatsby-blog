@@ -101,7 +101,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.20.0",
     "eslint-watch": "6.0.1",
-    "flow-bin": "^0.126.0",
+    "flow-bin": "^0.127.0",
     "identity-obj-proxy": "3.0.0",
     "immutable": "^3.8.2",
     "install-peers-cli": "^2.2.0",
