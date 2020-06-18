@@ -7,13 +7,31 @@ exports[`Author renders correctly 1`] = `
   <Link
     to="/"
   >
-    <img
-      alt="test"
-      className="author__photo"
-      height="75"
-      src="/photo.webp"
-      width="75"
-    />
+    <picture>
+      <source
+        alt="test"
+        className="author__photo"
+        height="75"
+        srcSet="/photo.webp.webp"
+        type="image/webp"
+        width="75"
+      />
+      <source
+        alt="test"
+        className="author__photo"
+        height="75"
+        srcSet="/photo.webp.jpg"
+        type="image/jpeg"
+        width="75"
+      />
+      <img
+        alt="test"
+        className="author__photo"
+        height="75"
+        src="/photo.webp.jpg"
+        width="75"
+      />
+    </picture>
   </Link>
   <h2
     className="author__title"

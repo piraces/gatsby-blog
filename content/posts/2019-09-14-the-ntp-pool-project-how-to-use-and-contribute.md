@@ -36,7 +36,7 @@ If you are interested in using this awesome service, please follow the instructi
 
 Which is basically changing your NTP servers to point to the servers in the pool:
 
-```
+```markup
 server 0.pool.ntp.org
 server 1.pool.ntp.org
 server 2.pool.ntp.org
@@ -88,7 +88,7 @@ Once we have the servers, we have to know its IPv4 and IPv6 addresses. Sometimes
 
 Which produces the following output:
 
-```
+```markup
 ;; ANSWER SECTION:
 6.ntp.snails.email.	5999	IN	A	139.162.170.219
 6.ntp.snails.email.	5999	IN	AAAA 2a01:7e01::f03c:91ff:fe8b:e9e0
@@ -113,7 +113,7 @@ The `noquery` option does not allow management queries, which is useful to preve
 
 The final config file will be something like this:
 
-```
+```markup
 driftfile /var/lib/ntp/ntp.drift
 
 server ntp_server_1 iburst

@@ -5,13 +5,31 @@ import styles from './Author.module.scss';
 const Author = ({ author, isIndex }) => (
   <div className={styles['author']}>
     <Link to="/">
-      <img
-        src={withPrefix(author.photo)}
-        className={styles['author__photo']}
-        width="75"
-        height="75"
-        alt={author.name}
-      />
+      <picture>
+        <source
+          srcSet={`${withPrefix(author.photo)}.webp`}
+          className={styles['author__photo']}
+          width="75"
+          height="75"
+          alt={author.name}
+          type="image/webp"
+        />
+        <source
+          srcSet={`${withPrefix(author.photo)}.jpg`}
+          className={styles['author__photo']}
+          width="75"
+          height="75"
+          alt={author.name}
+          type="image/jpeg"
+        />
+        <img
+          src={`${withPrefix(author.photo)}.jpg`}
+          className={styles['author__photo']}
+          width="75"
+          height="75"
+          alt={author.name}
+        />
+      </picture>
     </Link>
 
     { isIndex ? (

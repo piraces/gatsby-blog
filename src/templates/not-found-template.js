@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { withPrefix, graphql } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
@@ -18,7 +18,25 @@ const NotFoundTemplate = ({ data }) => {
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="🔍 There's nothing around here...">
-        <img src="/not-found.webp" style={imgStyle}></img>
+        <picture>
+          <source
+            srcSet={`${withPrefix('/not-found')}.webp`}
+            className={imgStyle}
+            alt="Not found animation"
+            type="image/webp"
+          />
+          <source
+            srcSet={`${withPrefix('/not-found')}.jpg`}
+            className={imgStyle}
+            alt="Not found animation"
+            type="image/jpeg"
+          />
+          <img
+            src={`${withPrefix('/not-found')}.jpg`}
+            className={imgStyle}
+            alt="Not found animation"
+          />
+        </picture>
       </Page>
     </Layout>
   );

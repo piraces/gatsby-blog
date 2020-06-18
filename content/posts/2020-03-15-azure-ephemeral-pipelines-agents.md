@@ -129,7 +129,7 @@ In this example, permissions on the pool (for the OAuth token approach) will loo
 #### Additional considerations:
 You must register an Azure Resource provider for the namespace `Microsoft.ContainerInstance` in order to create container instances for the agents. This can be done easily opening a Powershell instance in the Azure portal and executing the following command:
 
-```
+```powershell
 Register-AzureRmResourceProvider -ProviderNamespace 'Microsoft.ContainerInstance'
 ```
 

@@ -21,14 +21,37 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       <div
         className="page__body"
       >
-        <img
-          src="/not-found.webp"
-          style={
-            Object {
-              "maxWidth": "50%",
+        <picture>
+          <source
+            alt="Not found animation"
+            className={
+              Object {
+                "maxWidth": "50%",
+              }
             }
-          }
-        />
+            srcSet="/not-found.webp"
+            type="image/webp"
+          />
+          <source
+            alt="Not found animation"
+            className={
+              Object {
+                "maxWidth": "50%",
+              }
+            }
+            srcSet="/not-found.jpg"
+            type="image/jpeg"
+          />
+          <img
+            alt="Not found animation"
+            className={
+              Object {
+                "maxWidth": "50%",
+              }
+            }
+            src="/not-found.jpg"
+          />
+        </picture>
       </div>
     </div>
   </div>

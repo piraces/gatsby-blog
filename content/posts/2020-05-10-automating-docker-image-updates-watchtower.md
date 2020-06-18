@@ -42,7 +42,7 @@ Watchtower will pull down the new image, shutdown gracefully the existing contai
 
 This can be achieved as simple as running the following command in the same machine our container is deployed:
 
-```console
+```shell
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
@@ -82,7 +82,7 @@ Some of the most interesting ones are:
 As we have seen, Watchtower will watch all containers and try to update them. However, in most cases we will need to specify which containers should be updated.
 
 We can control this for example when running the Watchtower container, specifying the name of the containers to watch:
-```console
+```shell
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
@@ -106,7 +106,7 @@ In order to configure notifications for the different services, take a look at t
 In the case of using private Docker registries, we need to supply Watchtower the authentication credentials for the registry with the environment variables `REPO_USER` and `REPO_PASS`. Another way to do this is to mount the host's docker config file into the container (at the root of the filesystem `/`).
 
 Example:
-```console
+```shell
 docker run -d \
   --name watchtower \
   -e REPO_USER=username \

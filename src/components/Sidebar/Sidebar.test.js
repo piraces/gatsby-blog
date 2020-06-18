@@ -10,7 +10,7 @@ describe('Sidebar', () => {
           siteMetadata: {
             author: {
               name: 'name',
-              photo: '/photo.webp',
+              photo: '/photo',
               bio: 'bio',
               contacts: {
                 email: '#',

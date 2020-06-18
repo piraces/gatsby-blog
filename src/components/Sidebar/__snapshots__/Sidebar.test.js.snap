@@ -13,13 +13,31 @@ exports[`Sidebar renders correctly 1`] = `
       <Link
         to="/"
       >
-        <img
-          alt="name"
-          className="author__photo"
-          height="75"
-          src="/photo.webp"
-          width="75"
-        />
+        <picture>
+          <source
+            alt="name"
+            className="author__photo"
+            height="75"
+            srcSet="/photo.webp"
+            type="image/webp"
+            width="75"
+          />
+          <source
+            alt="name"
+            className="author__photo"
+            height="75"
+            srcSet="/photo.jpg"
+            type="image/jpeg"
+            width="75"
+          />
+          <img
+            alt="name"
+            className="author__photo"
+            height="75"
+            src="/photo.jpg"
+            width="75"
+          />
+        </picture>
       </Link>
       <h2
         className="author__title"
