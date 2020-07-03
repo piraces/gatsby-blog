@@ -7,7 +7,6 @@ module.exports = {
   description: 'Software development & tech related blog. Mainly focused on Microsoft and Open Source technologies and Web Development.',
   subtitle: 'Software development & tech related blog',
   copyright: '© All rights reserved.',
-  disqusShortname: 'piraces-dev',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-136840526-1',
   menu: [
