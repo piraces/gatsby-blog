@@ -54,7 +54,7 @@ exports[`IndexTemplate renders correctly 1`] = `
               <span
                 className="feed__item-meta-read"
               >
-                 📖 
+                 📖 
                  min
               </span>
             </div>
@@ -115,7 +115,7 @@ exports[`IndexTemplate renders correctly 1`] = `
               <span
                 className="feed__item-meta-read"
               >
-                 📖 
+                 📖 
                  min
               </span>
             </div>

@@ -39,7 +39,7 @@ exports[`Feed renders correctly 1`] = `
       <span
         className="feed__item-meta-read"
       >
-         📖 
+         📖 
          min
       </span>
     </div>
@@ -100,7 +100,7 @@ exports[`Feed renders correctly 1`] = `
       <span
         className="feed__item-meta-read"
       >
-         📖 
+         📖 
          min
       </span>
     </div>
