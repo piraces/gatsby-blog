@@ -17,13 +17,13 @@ tags:
 
 Nowadays there are **lots** of technologies and dependencies involved in our day-to-day projects, therefore making it more difficult to know them all and to track their changes.
 
-New releases of tools, software, and software development related technologies happen almost every day. This can be sometimes kind of frustrating. You can be working in a brand new project using the latest available versions, and in the process of developing the project, versions bump and new features and fixes are available. This don't have to be bad indeed... These new versions can improve our product/project and solve some problems for us, and we know we have to update them someday and I personally think it's better to bump version by version than bumping from one version to another with several versions in the middle (which may result in a complicated process).
+New releases of tools, software, and software development related technologies happen almost every day. This can sometimes be kind of frustrating. You can be working in a brand new project using the latest available versions, and in the process of developing the project, versions bump and new features and fixes are available. This don't have to be bad indeed... These new versions can improve our product/project and solve some problems for us, and we know we have to update them someday. I personally think it's better to bump version by version than bumping from one version to another with several versions in the middle (which may result in a complicated process).
 
-Then... How to get up-to-date with all of these? Can we manage to get notified every time one technology we use is updated? Sure we can do it!
+Then... How to get up-to-date with all of these? Can we manage to get notified every time a technology we use is updated? Sure we can do it!
 
 # Approaches
 
-There are different approaches to accomplish this. We are going to review some of the ones I see people using or I use by myself.
+There are different approaches to accomplish this. We are going to review some of the most most used ones and the ones that I prefer.
 
 ## Using GitHub notifications
 
@@ -69,21 +69,21 @@ In the case of GitLab, we can subscribe to release notifications like GitHub and
 
 **What if a project is not open sourced or not in any of the mentioned platforms?**
 
-Well... There are plenty of options too to keep track of them. Usually largely used projects tend to have a Twitter account, a blog, or other resource we can watch and keep up-to-date.
+Well... There are also plenty of options to keep track of them. Usually largely used projects tend to have a Twitter account, a blog, or other resource we can watch and keep up-to-date.
 
 In this case, to make all notifications came to the same place we could use some mechanism of automation to watch for us blog updates or twitter accounts and notify us on new releases.
 
-Some tools like [IFTTT](https://ifttt.com/), provides us simple yet powerful workflows to automate this kind of things. For example, we can setup a workflow to get new releases information from a blog (via RSS) to our mail:
+Some tools like [IFTTT](https://ifttt.com/), provides us simple yet powerful workflows to automate this kind of things. For example, we can set up a workflow to get new releases information from a blog (via RSS) to our mail:
 
 ![IFTTT Automation](./images/notifications-new-releases-tech-stack/ifttt_automation.png)
 
 Other options could be to watch a Twitter account and send it to our mail, setup an RSS feed of a Twitter account updates which contains certain words (like "release"), and other workflows you could imagine.
 
-Personally, I have not encountered a project which I couldn't track its releases.
+Personally, I have not found a project whose releases I couldn't track.
 
 # Conclusion
 
-There are plenty of options to get up-to-date with your tech stack or favorite tooling. Simply use the one most comfortable to you, or the one you find more productive.
+There are plenty of options to get up-to-date with your tech stack or favorite tooling. Simply use the most comfortable to you, or the one you find more productive.
 
 I'm sure this process will help you out to keep you up-to-date and be a more informed and organized developer.
 
