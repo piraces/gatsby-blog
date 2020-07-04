@@ -23,7 +23,7 @@ Then... How to get up-to-date with all of these? Can we manage to get notified e
 
 # Approaches
 
-There are different approaches to accomplish this. We are going to review some of the most most used ones and the ones that I prefer.
+There are different approaches to accomplish this. We are going to review some of the most used ones and the ones that I prefer.
 
 ## Using GitHub notifications
 
@@ -77,7 +77,7 @@ Some tools like [IFTTT](https://ifttt.com/), provides us simple yet powerful wor
 
 ![IFTTT Automation](./images/notifications-new-releases-tech-stack/ifttt_automation.png)
 
-Other options could be to watch a Twitter account and send it to our mail, setup an RSS feed of a Twitter account updates which contains certain words (like "release"), and other workflows you could imagine.
+Other options could be to watch a Twitter account and send it to our mail, set up an RSS feed of a Twitter account updates which contains certain words (like "release"), and other workflows you could imagine.
 
 Personally, I have not found a project whose releases I couldn't track.
 
