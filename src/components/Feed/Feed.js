@@ -9,7 +9,7 @@ const Feed = ({ edges }) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <div className={styles['feed__item-meta']}>
           <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
-            {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
+            {moment(edge.node.frontmatter.date).format('DD MMMM YYYY')}
           </time>
           <span className={styles['feed__item-meta-divider']}>-</span>
           <span className={styles['feed__item-meta-category']}>
