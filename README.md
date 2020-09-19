@@ -1,8 +1,6 @@
-## piraces.dev
-![Publish CI](https://github.com/piraces/piraces.dev/workflows/Publish%20CI/badge.svg)
-[![Build Status](https://travis-ci.org/piraces/piraces.dev.svg?branch=master)](https://travis-ci.org/piraces/piraces.dev)
+## gatsby blog
 
-Main repository for the site piraces.dev, written in GatsbyJS based in the Lumen theme
+Old blog for piraces.dev, written in GatsbyJS based in the Lumen theme
 
 
 ## License
